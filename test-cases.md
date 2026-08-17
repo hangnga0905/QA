@@ -137,7 +137,7 @@ Priority: Medium
 
 
 ID: TC-008
-Title: Checkout unsucessfully when there is no selected product                   
+Title: Checkout sucessfully when removing some selected products                 
 Preconditions:    
 - There is a valid link: https://www.saucedemo.com/
 - There is a valid account (ex: standard_user / secret_sauce)
@@ -149,12 +149,12 @@ Steps:
 4. Choose any products and click on 'Add to cart' button
 5. Click on 'Cart' icon
 6. Click on 'Checkout' button
-7. Click on 'Remove' button to remove the selected product(s)
+7. Click on 'Remove' button to remove some selected product(s)
 8. Click on 'Checkout' buton
 9. Fulfill the form with 'First Name', 'Last Name', and 'Zip/ Postal Code'
 10. Click on 'Continue' button
 11. Click on 'Finish' button
-Expected Result: User cannot checkout and the warning message appears
+Expected Result: User checkouts successfully after removing some products
 Priority: Medium
 
 
